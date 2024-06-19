@@ -1,0 +1,36 @@
+:root {
+    --cor-de-fundo: #9841bb;
+    --verde: #5a2370;
+    --branco: #000000;
+    --botao-ativo: #9b82aa;
+    --botao-inativo: rgba(98, 58, 102, 0.5);
+    --texto-fundo: rgba(210, 208, 236, 0.3);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+
+.titulo-principal span {
+    color: var(--verde);
+}
+
