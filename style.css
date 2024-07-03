@@ -1,125 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
-:root {
-    --cor-de-fundo: #bdec9e;
-    --verde: #2cc72c80;
-    --branco: #397c03;
-    --botao-ativo: #f5f3f3;
-    --botao-inativo: rgba(72, 255, 0, 0.5);
-    --texto-fundo: rgba(210, 208, 236, 0.3);
-}
-
 body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco);
-    font-family: 'Chakra Petch', sans-serif;
-}
-.conteudo-principal {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.titulo-principal {
-    text-align: left;
-    width: 100%;
-    font-size: 32px;
-}
-
-.titulo-principal span {
-    color: var(--verde);
-}
-
-
-.botao {
-    font-family: 'Chakra Petch', sans-serif;
-    background-color: var(--botao-inativo);
-    color: var(--branco);
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-    font-size: 18px;
-    align-items: center;
-    width: 100%;
-    border-bottom: 4px solid var(--botao-ativo);
-    border-left: 2px solid var(--botao-ativo);
-    border-right: 2px solid var(--botao-ativo);
-    border-top: none;
-}
-
-.botao:first-child {
-    border-radius: 40px 40px 0 0;
-}
-
-.botoes {
-    display: block;
-}
-
-.botao.ativo{
-    background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
-}
-
-.abas-textos{
-    background-color: var(--texto-fundo);
-    padding: 40px;
-    border-radius: 0 0 40px 40px;
-}
-.aba-conteudo.ativo{
-    display:block;
-}
-
-.aba-conteudo{
-    display: none;
-}
-
-.aba-conteudo-titulo-principal{
-    font-size: 28px;
-    text-align: center;
-}
-.aba-conteudo-titulo-secundario{
-    text-align: center;
-    color: var(--verde);
-    text-transform: uppercase;
-}
-
-.contador{
-    display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.contador-digito{
-    padding: 0 16px;
-    text-align: center;
-    min-width: 100px;
-}
-
-.contador-digito-numero{
-    font-size: 80px;
-    margin: 0;
-
-}
-
-.contador-digito-texto{
-    color: var(--verde);font-size: 20px;
-    margin: 0;
-
-}
-
-@media screen and (min-width: 768px) {
-    .botoes {
-        display: flex;
+    color: #b70fce;
+    font: 12px Verdana, sans-serif;
     }
-
-    .botao:first-child {
-        border-radius: 40px 0 0 0;
-    }
-
-    .botao:last-child {
-        border-radius: 0 40px 0 0;
-    }}
-    
+  
+    #conteudo {
+          width: 70%;
+         /* text-align: center;*/
+          }
+  
+      #menu {
+        
+        width: 10%;
+        margin: 0; 
+        padding: 0;
+       
+        }
+  
+        #menu ul li {
+          margin: 0; padding: 0px;
+          border-bottom: 1px solid #3ff16698;
+          text-align: left;
+          list-style-type: none;
+          text-align: center;
+          }
+  
+          #menu a:link {
+            background: #decfcf;
+            color: #666;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 8px;
+            display: block;
+            }
+  
+            #menu a:hover {
+              background: #b0cdea;
+              color: #039;
+              }
+              :root {
+                --cor-de-fundo: #bdec9e;
+                --verde: #2cc72c80;
+                --branco: #397c03;
+                --botao-ativo: #f5f3f3;
+                --botao-inativo: rgba(72, 255, 0, 0.5);
+                --texto-fundo: rgba(210, 208, 236, 0.3);
+            }
+            …    color: var(-:root {
+                --cor-de-fundo: #bdec9e;
+                --verde: #2cc72c80;
+                --branco: #397c03;
+                --botao-ativo: #f5f3f3;
+                --botao-inativo: rgba(72, 255, 0, 0.5);
+                --texto-fundo: rgba(210, 208, 236, 0.3);
+            }
+            …    color: var(--branco);
+                display: flex;
+                justify-content: center;
+                padding: 1em;-branco);
+                display: flex;
+                justify-content: center;
+                padding: 1em;
